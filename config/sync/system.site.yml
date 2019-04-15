@@ -1,0 +1,14 @@
+uuid: 18af6150-fc03-47db-83b6-18aea884568b
+name: 'Tithe Calculator'
+mail: ben@codepulse.co.uk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
