@@ -1,6 +1,6 @@
 uuid: 0f8e7696-bc58-41bf-8229-c412abce69e7
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: tc_main_menu
 theme: tc
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

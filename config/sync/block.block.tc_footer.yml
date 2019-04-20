@@ -1,6 +1,6 @@
 uuid: 365619b5-bbfd-4f64-ad9e-5cd3e68cd19b
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: tc_footer
 theme: tc
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

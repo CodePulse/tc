@@ -1,6 +1,6 @@
 uuid: 19705af9-df33-44df-8295-b1b68f54fd28
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: tc_powered
 theme: tc
-region: navigation
+region: header
 weight: 10
 provider: null
 plugin: system_powered_by_block

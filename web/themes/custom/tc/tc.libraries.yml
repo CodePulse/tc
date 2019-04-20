@@ -2,6 +2,8 @@ framework:
   css:
     theme:
       css/style.css: {}
+      css/print.css: {}
+      css/ie.css: {}
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}

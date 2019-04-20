@@ -1,6 +1,6 @@
 uuid: 75906126-c9d8-4e16-a5a8-f89890dacd26
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: tc_breadcrumbs
 theme: tc
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

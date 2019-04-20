@@ -1,6 +1,6 @@
 uuid: f161aa77-9756-4b37-9dad-acc29440cc45
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,7 +12,7 @@ _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: tc_tools
 theme: tc
-region: sidebar_first
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'

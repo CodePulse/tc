@@ -9,7 +9,7 @@ _core:
 id: tc_page_title
 theme: tc
 region: content
-weight: -50
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
