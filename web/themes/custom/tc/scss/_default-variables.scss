@@ -891,3 +891,11 @@ $dl-horizontal-offset:        $component-offset-horizontal !default;
 $dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
+
+
+// Custom:
+$background: #37a5fb;
+$select-color: #fff;
+$select-background: #2196f3;
+$select-width: 100%;
+$select-height: 40px;

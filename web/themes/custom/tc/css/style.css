@@ -16,6 +16,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 /* line 9, ../bootstrap/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -9036,24 +9038,20 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   width: 100%;
 }
 /* line 22, ../scss/component/_form.scss */
-.form-inline .select-wrapper {
-  width: auto;
-}
-/* line 25, ../scss/component/_form.scss */
 .input-group .select-wrapper {
   display: table-cell;
 }
-/* line 28, ../scss/component/_form.scss */
+/* line 25, ../scss/component/_form.scss */
 .input-group .select-wrapper:first-child .form-control:first-child {
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
-/* line 31, ../scss/component/_form.scss */
+/* line 28, ../scss/component/_form.scss */
 .input-group .select-wrapper:last-child .form-control:first-child {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 35, ../scss/component/_form.scss */
+/* line 32, ../scss/component/_form.scss */
 .select-wrapper select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -9061,11 +9059,11 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   line-height: 1;
   padding-right: 2em;
 }
-/* line 41, ../scss/component/_form.scss */
+/* line 38, ../scss/component/_form.scss */
 .select-wrapper select::-ms-expand {
   opacity: 0;
 }
-/* line 45, ../scss/component/_form.scss */
+/* line 42, ../scss/component/_form.scss */
 .select-wrapper:after {
   color: #337ab7;
   content: '▼';
@@ -9080,7 +9078,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   top: 50%;
   z-index: 10;
 }
-/* line 60, ../scss/component/_form.scss */
+/* line 57, ../scss/component/_form.scss */
 .has-glyphicons .select-wrapper:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9088,20 +9086,20 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   display: inline-block;
   font-family: 'Glyphicons Halflings';
 }
-/* line 67, ../scss/component/_form.scss */
+/* line 64, ../scss/component/_form.scss */
 .has-error .select-wrapper:after {
   color: #a94442;
 }
-/* line 70, ../scss/component/_form.scss */
+/* line 67, ../scss/component/_form.scss */
 .has-success .select-wrapper:after {
   color: #3c763d;
 }
-/* line 73, ../scss/component/_form.scss */
+/* line 70, ../scss/component/_form.scss */
 .has-warning .select-wrapper:after {
   color: #8a6d3b;
 }
 
-/* line 82, ../scss/component/_form.scss */
+/* line 79, ../scss/component/_form.scss */
 .form-required:after {
   background-image: url("../images/required.svg");
   background-size: 10px 7px;
@@ -9113,13 +9111,27 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   width: 10px;
 }
 
-/* line 95, ../scss/component/_form.scss */
+/* line 92, ../scss/component/_form.scss */
 .form-actions .btn, .form-actions .btn-group {
   margin-right: 10px;
 }
-/* line 99, ../scss/component/_form.scss */
+/* line 96, ../scss/component/_form.scss */
 .form-actions .btn-group .btn {
   margin-right: 0;
+}
+
+/* line 102, ../scss/component/_form.scss */
+.webform-submission-tithe-calculator-form {
+  text-align: center;
+}
+/* line 103, ../scss/component/_form.scss */
+.webform-submission-tithe-calculator-form .control-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+}
+/* line 107, ../scss/component/_form.scss */
+.webform-submission-tithe-calculator-form input {
+  width: 100% !important;
 }
 
 /**
@@ -9615,4 +9627,95 @@ p:last-child,
 /* line 66, ../scss/_overrides.scss */
 .help-block:first-child, .control-group .help-inline:first-child {
   margin-top: 0;
+}
+
+/* line 1, ../scss/component/_select-element.scss */
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+/* line 6, ../scss/component/_select-element.scss */
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+}
+
+/* line 15, ../scss/component/_select-element.scss */
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2196f3;
+  padding: 8px 15px;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 24, ../scss/component/_select-element.scss */
+.select-styled:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+/* line 34, ../scss/component/_select-element.scss */
+.select-styled:hover {
+  background-color: #1791f2;
+}
+/* line 37, ../scss/component/_select-element.scss */
+.select-styled:active, .select-styled.active {
+  background-color: #0d8aee;
+}
+/* line 39, ../scss/component/_select-element.scss */
+.select-styled:active:after, .select-styled.active:after {
+  top: 9px;
+  border-color: transparent transparent #fff transparent;
+}
+
+/* line 46, ../scss/component/_select-element.scss */
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #0d8aee;
+}
+/* line 57, ../scss/component/_select-element.scss */
+.select-options li {
+  margin: 0;
+  padding: 12px 0;
+  text-indent: 15px;
+  border-top: 1px solid #0c7cd5;
+  -webkit-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+  font-weight: bold;
+  font-size: 2em;
+}
+/* line 63, ../scss/component/_select-element.scss */
+.select-options li:hover {
+  color: #2196f3;
+  background: #fff;
+}
+/* line 69, ../scss/component/_select-element.scss */
+.select-options li[rel=""] {
+  display: none;
 }

@@ -19,9 +19,6 @@
   display: inline-block;
   position: relative;
   width: 100%;
-  .form-inline & {
-    width: auto;
-  }
   .input-group & {
     display: table-cell;
     // Reset rounded corners
@@ -100,4 +97,15 @@
       margin-right: 0;
     }
   }
+}
+
+.webform-submission-tithe-calculator-form {
+  .control-label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+  }
+  input {
+    width: 100% !important;
+  }
+  text-align: center;
 }
